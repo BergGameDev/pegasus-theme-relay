@@ -5,9 +5,33 @@ A cinematic Pegasus theme for browsing and launching a game library with a contr
 **0.13.0-beta1 — Windows-first beta candidate.** Not yet submitted to the gallery. Physical-controller, game-launch/return and GPU performance sign-off remain outstanding. Linux, Android and macOS are not verified targets for this release.
 
 ![Startup](screenshots/startup.png)
-![Theme](screenshots/Theme.png)
-![Settings](screenshots/settings.png)
 
+<table>
+  <tr>
+    <td width="50%">
+      <a href="screenshots/Theme.png">
+        <img src="screenshots/Theme.png" alt="Relay library" width="100%">
+      </a>
+    </td>
+    <td width="50%">
+      <a href="screenshots/TransitionScreenShots%20(1).jpg">
+        <img src="screenshots/TransitionScreenShots%20(1).jpg" alt="Background transition" width="100%">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="screenshots/GameData.png">
+        <img src="screenshots/GameData.png" alt="Game data and artwork" width="100%">
+      </a>
+    </td>
+    <td width="50%">
+      <a href="screenshots/settings.png">
+        <img src="screenshots/settings.png" alt="Relay settings" width="100%">
+      </a>
+    </td>
+  </tr>
+</table>
 
 These are actual Qt-rendered theme screens from an isolated test fixture, not a screenshot of a populated game library. No commercial game artwork is bundled.
 
