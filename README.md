@@ -5,7 +5,8 @@ A cinematic Pegasus theme for browsing and launching a game library with a contr
 **0.13.0-beta1 — Windows-first beta candidate.** Not yet submitted to the gallery. Physical-controller, game-launch/return and GPU performance sign-off remain outstanding. Linux, Android and macOS are not verified targets for this release.
 
 ![Startup](screenshots/startup.png)
-![Settings](screenshots/theme.png)
+![Settings](screenshots/settings.png)
+![Theme](screenshots/Theme.png)
 
 These are actual Qt-rendered theme screens from an isolated test fixture, not a screenshot of a populated game library. No commercial game artwork is bundled.
 
