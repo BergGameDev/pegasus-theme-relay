@@ -1,0 +1,9 @@
+{
+  "igdb": {
+    "client_id": "",
+    "client_secret": ""
+  },
+  "steamgriddb": {
+    "api_key": ""
+  }
+}

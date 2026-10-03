@@ -1,0 +1,11 @@
+relay-config.json
+relay-settings.json
+*.log
+__pycache__/
+*.pyc
+.relay-backups/
+.relay-previews/
+.release-staging/
+relay-metadata/relay-metadata-roots.json
+relay-metadata/relay-curated-media/
+relay-metadata/relay-curated.metadata.pegasus.txt

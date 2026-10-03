@@ -1,0 +1,856 @@
+{
+  "schemaVersion": {
+    "default": 2,
+    "min": 2,
+    "max": 2,
+    "step": 1,
+    "type": "number"
+  },
+  "accent": {
+    "default": 0,
+    "min": 0,
+    "max": 37,
+    "step": 1,
+    "type": "number"
+  },
+  "red": {
+    "default": 143,
+    "min": 0,
+    "max": 255,
+    "step": 8,
+    "type": "number"
+  },
+  "green": {
+    "default": 205,
+    "min": 0,
+    "max": 255,
+    "step": 8,
+    "type": "number"
+  },
+  "blue": {
+    "default": 170,
+    "min": 0,
+    "max": 255,
+    "step": 8,
+    "type": "number"
+  },
+  "prompts": {
+    "default": 0,
+    "min": 0,
+    "max": 3,
+    "step": 1,
+    "type": "number"
+  },
+  "textSize": {
+    "default": 0,
+    "min": 0,
+    "max": 2,
+    "step": 1,
+    "type": "number"
+  },
+  "brightness": {
+    "default": 100,
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "type": "number"
+  },
+  "animation": {
+    "default": true,
+    "type": "boolean"
+  },
+  "synopsis": {
+    "default": true,
+    "type": "boolean"
+  },
+  "typewriter": {
+    "default": true,
+    "type": "boolean"
+  },
+  "sounds": {
+    "default": false,
+    "type": "boolean"
+  },
+  "transitionMode": {
+    "default": 4,
+    "min": 0,
+    "max": 7,
+    "step": 1,
+    "type": "number"
+  },
+  "triangleSize": {
+    "default": 44,
+    "min": 18,
+    "max": 180,
+    "step": 2,
+    "type": "number"
+  },
+  "transitionMs": {
+    "default": 650,
+    "min": 100,
+    "max": 2000,
+    "step": 50,
+    "type": "number"
+  },
+  "parallaxDepth": {
+    "default": 12,
+    "min": 0,
+    "max": 50,
+    "step": 2,
+    "type": "number"
+  },
+  "prismStrength": {
+    "default": 25,
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "type": "number"
+  },
+  "cardWidth": {
+    "default": 280,
+    "min": 220,
+    "max": 640,
+    "step": 10,
+    "type": "number"
+  },
+  "cardScale": {
+    "default": 112,
+    "min": 100,
+    "max": 118,
+    "step": 1,
+    "type": "number"
+  },
+  "cardTilt": {
+    "default": 8,
+    "min": 0,
+    "max": 18,
+    "step": 1,
+    "type": "number"
+  },
+  "cardLift": {
+    "default": 0,
+    "min": 0,
+    "max": 0,
+    "step": 1,
+    "type": "number"
+  },
+  "motionMs": {
+    "default": 480,
+    "min": 80,
+    "max": 700,
+    "step": 20,
+    "type": "number"
+  },
+  "typewriterMs": {
+    "default": 38,
+    "min": 10,
+    "max": 120,
+    "step": 2,
+    "type": "number"
+  },
+  "blinkMs": {
+    "default": 550,
+    "min": 200,
+    "max": 1400,
+    "step": 50,
+    "type": "number"
+  },
+  "trackOpacity": {
+    "default": 72,
+    "min": 20,
+    "max": 95,
+    "step": 5,
+    "type": "number"
+  },
+  "iconTint": {
+    "default": 80,
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "type": "number"
+  },
+  "soundVolume": {
+    "default": 24,
+    "min": 0,
+    "max": 100,
+    "step": 2,
+    "type": "number"
+  },
+  "synopsisMs": {
+    "default": 8,
+    "min": 1,
+    "max": 80,
+    "step": 1,
+    "type": "number"
+  },
+  "metadataMs": {
+    "default": 18,
+    "min": 5,
+    "max": 100,
+    "step": 1,
+    "type": "number"
+  },
+  "captionMs": {
+    "default": 18,
+    "min": 5,
+    "max": 100,
+    "step": 1,
+    "type": "number"
+  },
+  "cardAspect": {
+    "default": 230,
+    "min": 160,
+    "max": 320,
+    "step": 10,
+    "type": "number"
+  },
+  "thumbnailFrames": {
+    "default": {},
+    "type": "framing"
+  },
+  "plexusEdges": {
+    "default": 35,
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "type": "number"
+  },
+  "plexusFade": {
+    "default": 45,
+    "min": 15,
+    "max": 70,
+    "step": 5,
+    "type": "number"
+  },
+  "plexusMotion": {
+    "default": 20,
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "type": "number"
+  },
+  "prismSplit": {
+    "default": 0,
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "type": "number"
+  },
+  "particleCount": {
+    "default": 24,
+    "min": 0,
+    "max": 180,
+    "step": 6,
+    "type": "number"
+  },
+  "particleSize": {
+    "default": 2,
+    "min": 1,
+    "max": 8,
+    "step": 1,
+    "type": "number"
+  },
+  "particleVariation": {
+    "default": 50,
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "type": "number"
+  },
+  "particleSpeed": {
+    "default": 25,
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "type": "number"
+  },
+  "particleOpacity": {
+    "default": 18,
+    "min": 0,
+    "max": 100,
+    "step": 2,
+    "type": "number"
+  },
+  "animationLevel": {
+    "default": 1,
+    "min": 0,
+    "max": 3,
+    "step": 1,
+    "type": "number"
+  },
+  "prismDistance": {
+    "default": 12,
+    "min": 0,
+    "max": 48,
+    "step": 1,
+    "type": "number"
+  },
+  "prismAngle": {
+    "default": 0,
+    "min": 0,
+    "max": 360,
+    "step": 5,
+    "type": "number"
+  },
+  "frostBlur": {
+    "default": 16,
+    "min": 0,
+    "max": 30,
+    "step": 1,
+    "type": "number"
+  },
+  "frostRevealMs": {
+    "default": 900,
+    "min": 200,
+    "max": 4000,
+    "step": 100,
+    "type": "number"
+  },
+  "frostHoldMs": {
+    "default": 50,
+    "min": 0,
+    "max": 1500,
+    "step": 50,
+    "type": "number"
+  },
+  "frostSharpMs": {
+    "default": 800,
+    "min": 200,
+    "max": 4000,
+    "step": 100,
+    "type": "number"
+  },
+  "frostFlash": {
+    "default": 100,
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "type": "number"
+  },
+  "particleWind": {
+    "default": 0,
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "type": "number"
+  },
+  "particleGlint": {
+    "default": 0,
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "type": "number"
+  },
+  "frostScatter": {
+    "default": 30,
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "type": "number"
+  },
+  "frostGlintWidth": {
+    "default": 40,
+    "min": 5,
+    "max": 100,
+    "step": 5,
+    "type": "number"
+  },
+  "frostGlintLength": {
+    "default": 14,
+    "min": 5,
+    "max": 35,
+    "step": 1,
+    "type": "number"
+  },
+  "particlePlacement": {
+    "default": 0,
+    "min": 0,
+    "max": 2,
+    "step": 1,
+    "type": "number"
+  },
+  "particleEdgeBias": {
+    "default": 50,
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "type": "number"
+  },
+  "particleTop": {
+    "default": 100,
+    "min": 0,
+    "max": 200,
+    "step": 10,
+    "type": "number"
+  },
+  "particleBottom": {
+    "default": 100,
+    "min": 0,
+    "max": 200,
+    "step": 10,
+    "type": "number"
+  },
+  "particleLeft": {
+    "default": 100,
+    "min": 0,
+    "max": 200,
+    "step": 10,
+    "type": "number"
+  },
+  "particleRight": {
+    "default": 100,
+    "min": 0,
+    "max": 200,
+    "step": 10,
+    "type": "number"
+  },
+  "particleLifetime": {
+    "default": 45,
+    "min": 5,
+    "max": 180,
+    "step": 5,
+    "type": "number"
+  },
+  "fontStyle": {
+    "default": 0,
+    "min": 0,
+    "max": 4,
+    "step": 1,
+    "type": "number"
+  },
+  "overdrive": {
+    "default": false,
+    "type": "boolean"
+  },
+  "savedColours": {
+    "default": [],
+    "type": "palette"
+  },
+  "particleCenterFade": {
+    "default": 0,
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "type": "number"
+  },
+  "soundPack": {
+    "type": "number",
+    "default": 0,
+    "min": 0,
+    "max": 3,
+    "step": 1
+  },
+  "glintTint": {
+    "type": "number",
+    "default": 85,
+    "min": 0,
+    "max": 100,
+    "step": 5
+  },
+  "particleDensityBias": {
+    "type": "boolean",
+    "default": false
+  },
+  "frostGlintMs": {
+    "default": 80,
+    "type": "number",
+    "min": 20,
+    "max": 700,
+    "step": 10
+  },
+  "wipeMs": {
+    "type": "integer",
+    "default": 750,
+    "min": 100,
+    "max": 4000
+  },
+  "wipeAngle": {
+    "type": "integer",
+    "default": 20,
+    "min": 0,
+    "max": 360
+  },
+  "wipeSoftness": {
+    "type": "integer",
+    "default": 0,
+    "min": 0,
+    "max": 80
+  },
+  "wipeReverse": {
+    "type": "boolean",
+    "default": false
+  },
+  "wipeFollow": {
+    "type": "boolean",
+    "default": true
+  },
+  "decodeMs": {
+    "type": "integer",
+    "default": 1150,
+    "min": 200,
+    "max": 4000
+  },
+  "decodeCell": {
+    "type": "integer",
+    "default": 10,
+    "min": 6,
+    "max": 12
+  },
+  "decodeScatter": {
+    "type": "integer",
+    "default": 35,
+    "min": 0,
+    "max": 100
+  },
+  "decodeHold": {
+    "type": "integer",
+    "default": 45,
+    "min": 20,
+    "max": 80
+  },
+  "decodeGlow": {
+    "type": "integer",
+    "default": 60,
+    "min": 0,
+    "max": 100
+  },
+  "fractureMs": {
+    "type": "integer",
+    "default": 1200,
+    "min": 200,
+    "max": 4000
+  },
+  "fractureSize": {
+    "type": "integer",
+    "default": 320,
+    "min": 70,
+    "max": 400
+  },
+  "fractureDepth": {
+    "type": "integer",
+    "default": 18,
+    "min": 0,
+    "max": 60
+  },
+  "fractureTilt": {
+    "type": "integer",
+    "default": 6,
+    "min": 0,
+    "max": 18
+  },
+  "fractureScatter": {
+    "type": "integer",
+    "default": 50,
+    "min": 0,
+    "max": 100
+  },
+  "fractureGlints": {
+    "type": "integer",
+    "default": 55,
+    "min": 0,
+    "max": 100
+  },
+  "weaveMs": {
+    "type": "integer",
+    "default": 1100,
+    "min": 200,
+    "max": 4000
+  },
+  "weaveWidth": {
+    "type": "integer",
+    "default": 28,
+    "min": 8,
+    "max": 640
+  },
+  "weaveBend": {
+    "type": "integer",
+    "default": 12,
+    "min": 0,
+    "max": 200
+  },
+  "weaveAngle": {
+    "type": "integer",
+    "default": 0,
+    "min": 0,
+    "max": 180
+  },
+  "weaveStagger": {
+    "type": "integer",
+    "default": 40,
+    "min": 0,
+    "max": 200
+  },
+  "weaveGlow": {
+    "type": "integer",
+    "default": 45,
+    "min": 0,
+    "max": 200
+  },
+  "weaveContours": {
+    "type": "integer",
+    "default": 30,
+    "min": 0,
+    "max": 200
+  },
+  "transitionSound": {
+    "type": "integer",
+    "default": 1,
+    "min": 0,
+    "max": 3
+  },
+  "transitionVolume": {
+    "type": "integer",
+    "default": 25,
+    "min": 0,
+    "max": 100
+  },
+  "glowRadius": {
+    "type": "integer",
+    "default": 32,
+    "min": 0,
+    "max": 64
+  },
+  "glowIntensity": {
+    "type": "integer",
+    "default": 100,
+    "min": 0,
+    "max": 200
+  },
+  "fractureTravel": {
+    "type": "integer",
+    "default": 420,
+    "min": 0,
+    "max": 1200
+  },
+  "fractureSpin": {
+    "type": "integer",
+    "default": 85,
+    "min": 0,
+    "max": 180
+  },
+  "fractureOpacity": {
+    "type": "integer",
+    "default": 45,
+    "min": 10,
+    "max": 100
+  },
+  "fractureReflection": {
+    "type": "integer",
+    "default": 85,
+    "min": 0,
+    "max": 150
+  },
+  "fractureThickness": {
+    "type": "integer",
+    "default": 8,
+    "min": 0,
+    "max": 32
+  },
+  "fractureBevel": {
+    "type": "integer",
+    "default": 3,
+    "min": 0,
+    "max": 12
+  },
+  "decodeAngle": {
+    "type": "integer",
+    "default": 0,
+    "min": 0,
+    "max": 360
+  },
+  "decodeSoftness": {
+    "type": "integer",
+    "default": 0,
+    "min": 0,
+    "max": 40
+  },
+  "decodeCharacterMs": {
+    "type": "integer",
+    "default": 100,
+    "min": 30,
+    "max": 500
+  },
+  "decodeReverse": {
+    "type": "boolean",
+    "default": false
+  },
+  "decodeFollow": {
+    "type": "boolean",
+    "default": true
+  },
+  "decodeAnimate": {
+    "type": "boolean",
+    "default": true
+  },
+  "fractureRandomness": {
+    "type": "integer",
+    "default": 85,
+    "min": 0,
+    "max": 100
+  },
+  "fractureSplit": {
+    "type": "integer",
+    "default": 20,
+    "min": 0,
+    "max": 100
+  },
+  "fractureChildren": {
+    "type": "integer",
+    "default": 4,
+    "min": 2,
+    "max": 5
+  },
+  "fractureSplitAt": {
+    "type": "integer",
+    "default": 38,
+    "min": 15,
+    "max": 75
+  },
+  "fractureSeparation": {
+    "type": "integer",
+    "default": 45,
+    "min": 0,
+    "max": 100
+  },
+  "fractureSpecular": {
+    "type": "integer",
+    "default": 100,
+    "min": 0,
+    "max": 200
+  },
+  "fractureGlintWidth": {
+    "type": "integer",
+    "default": 18,
+    "min": 5,
+    "max": 60
+  },
+  "fractureGlintDuration": {
+    "type": "integer",
+    "default": 80,
+    "min": 16,
+    "max": 300
+  },
+  "decodeHaloRadius": {
+    "type": "integer",
+    "default": 20,
+    "min": 0,
+    "max": 64
+  },
+  "decodeBloomIntensity": {
+    "type": "integer",
+    "default": 35,
+    "min": 0,
+    "max": 200
+  },
+  "weaveHaloRadius": {
+    "type": "integer",
+    "default": 40,
+    "min": 0,
+    "max": 128
+  },
+  "weaveBloomIntensity": {
+    "type": "integer",
+    "default": 150,
+    "min": 0,
+    "max": 400
+  },
+  "fractureLimit": {
+    "type": "integer",
+    "default": 128,
+    "min": 32,
+    "max": 128
+  },
+  "fractureImpactRadius": {
+    "type": "integer",
+    "default": 45,
+    "min": 15,
+    "max": 80
+  },
+  "fractureCoreSplit": {
+    "type": "integer",
+    "default": 40,
+    "min": 0,
+    "max": 100
+  },
+  "fractureFlare": {
+    "type": "integer",
+    "default": 100,
+    "min": 0,
+    "max": 300
+  },
+  "fractureFlareSize": {
+    "type": "integer",
+    "default": 280,
+    "min": 60,
+    "max": 800
+  },
+  "fractureFlareCount": {
+    "type": "integer",
+    "default": 8,
+    "min": 0,
+    "max": 16
+  },
+  "fractureFlareSpan": {
+    "default": 100,
+    "min": 20,
+    "max": 180,
+    "step": 5,
+    "type": "number"
+  },
+  "fractureFlareHalo": {
+    "default": 48,
+    "min": 0,
+    "max": 128,
+    "step": 4,
+    "type": "number"
+  },
+  "fractureFlareBloom": {
+    "default": 150,
+    "min": 0,
+    "max": 400,
+    "step": 10,
+    "type": "number"
+  },
+  "backgroundResolution": {
+    "default": 3,
+    "min": 0,
+    "max": 4,
+    "step": 1,
+    "type": "number"
+  },
+  "reducedMotion": {
+    "default": false,
+    "type": "boolean"
+  },
+  "reducedFlashes": {
+    "default": false,
+    "type": "boolean"
+  },
+  "highContrast": {
+    "default": false,
+    "type": "boolean"
+  },
+  "staticCursor": {
+    "default": false,
+    "type": "boolean"
+  },
+  "trailerVolume": {
+    "default": 50,
+    "type": "number",
+    "min": 0,
+    "max": 100,
+    "step": 5
+  },
+  "startupSplash": {
+    "type": "boolean",
+    "default": true
+  },
+  "splashWait": {
+    "type": "boolean",
+    "default": false
+  },
+  "helperAutoStart": {
+    "type": "boolean",
+    "default": false
+  }
+}

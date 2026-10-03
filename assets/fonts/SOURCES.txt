@@ -1,0 +1,13 @@
+Fonts bundled from the official Google Fonts repository. Original unmodified font files; see each corresponding OFL license.
+JetBrains Mono: https://github.com/google/fonts/tree/main/ofl/jetbrainsmono
+IBM Plex Mono: https://github.com/google/fonts/tree/main/ofl/ibmplexmono
+Space Mono: https://github.com/google/fonts/tree/main/ofl/spacemono
+Inconsolata: https://github.com/google/fonts/tree/main/ofl/inconsolata
+Consolas is a system fallback and is not bundled.
+
+Active proportional choices:
+Rajdhani: https://github.com/google/fonts/tree/main/ofl/rajdhani
+Oxanium: https://github.com/google/fonts/tree/main/ofl/oxanium
+Space Mono and Inconsolata remain as legacy bundled assets, but are no longer selectable.
+
+Share Tech: https://github.com/google/fonts/tree/main/ofl/sharetech
